@@ -2,6 +2,10 @@
 
 Codeblock is created by me!
 
+Plotted Accuracy Graph:
+
+![Project](https://github.com/mcagriaksoy/COVID-19_Detector_X-RAY/blob/master/Plot.PNG)
+
 The idea and dataset comes from:
  Adrian Rosebrock, PhD 
  
