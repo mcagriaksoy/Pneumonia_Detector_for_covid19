@@ -1,5 +1,8 @@
-# Pneumonia Detector for covid19.
-Codeblock is created by me!
+# Pneumonia Detector for covid19
+### Labels: 
+CNN, Deep Learning, Convolutional Neural Networks, MobileNetV2, Transfer Learning, Tensorflow, Keras, Google Colabs,
+
+## Let's Start :)
 The dataset I choosed is related the Covid-19 and the Pneumonia detection. It consists
 the x-ray images of various chests. It is more than 2GB and consists very different images.
 The link: kaggle.com/paultimothymooney/chest-xray-pneumonia
