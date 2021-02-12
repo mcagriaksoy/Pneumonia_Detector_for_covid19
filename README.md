@@ -1,6 +1,4 @@
-# COVID-19_Detector_X-RAY
-I have developed an AI model to combat and understand the coronavirus (COVID-19) which affects the whole world currently. My CNN model, which I use various datasets to train it, can detect COVID-19 with chest X-RAY pictures. I hope to develop the precise model as the data in my hand increases day by day.
-![X-ray image comparison, the picture is taken from pyimagesearch](https://github.com/mcagriaksoy/COVID-19_Detector_X-RAY/blob/master/covid_comp.jpg)
+# Pneumonia Detector for covid19.
 Codeblock is created by me!
 The dataset I choosed is related the Covid-19 and the Pneumonia detection. It consists
 the x-ray images of various chests. It is more than 2GB and consists very different images.
@@ -8,11 +6,11 @@ The link: kaggle.com/paultimothymooney/chest-xray-pneumonia
 I have made the dataset for tensorflow competible. My changes are seperation the data
 for binary classification while seperating test,train folders.The I have defined the train
 covid and normal(healthly) people folders.
-
+```python
 datasetDir = os.path.join(my google drive path, 'dataset')
 train_covid_dir = os.path.join(datasetDir, 'covid')
 train_normal_dir = os.path.join(datasetDir, 'normal')
-
+ ```
 After that Keras function of “flow_from_directory” is used for creating train and the
 validation data as like tf.data.Dataset from image files in a directory.
 Then, for data augmentation; I’d like to see the data from the dataset. I have displayed
@@ -104,15 +102,14 @@ any parameter. It simply means that the func. Does not create any augmentation d
 its handbook.
 ![Accuracies Compared](https://github.com/mcagriaksoy/COVID-19_Detector_X-RAY/blob/master/Acc1.PNG)
 
-# Summary
-The model is detecting covid-19 from previous patients' chest x-ray images.
-![X-ray image](https://github.com/mcagriaksoy/COVID-19_Detector_X-RAY/blob/master/x-ray.JPG)
-# Accuracy results:
+# Old Accuracy results:
 ![Results](https://github.com/mcagriaksoy/COVID-19_Detector_X-RAY/blob/master/Plot.PNG)
 
 The idea and dataset comes from:
 
  Adrian Rosebrock, PhD 
+ 
+ Prof. Cem Unsalan, Marmara University
  
  https://www.pyimagesearch.com/2020/03/16/detecting-covid-19-in-x-ray-images-with-keras-tensorflow-and-deep-learning/
  
